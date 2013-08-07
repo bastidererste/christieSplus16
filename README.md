@@ -25,11 +25,11 @@ import christieSplus16 as projector
 
 *// get all temparature data as Dictionary*
 
-**print pr1.getLampInfo()**
+**print pr1.getTemperatures()**
 
 *// get red DMD temparature as integer*
 
-**print pr1.getLampInfo()["red"]**
+**print pr1.getTemperatures()["red"]**
 
 
 
