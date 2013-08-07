@@ -8,14 +8,28 @@ python module to communicate with christie roadster S+16 projectors.
 
 import christieSplus16 as projector
 
+
 *// create projector instance with projector(HOST, PORT)*
-pr1 = projector("192.168.0.8", 3002)
+
+**pr1 = projector("192.168.0.8", 3002)**
 
 *// get all Lamp data as Dictionary*
-print pr1.getLampInfo()
+
+**print pr1.getLampInfo()**
 
 *// get lamp hours data as integer*
-print pr1.getLampInfo()["LampHours"]
+
+**print pr1.getLampInfo()["LampHours"]**
+
+
+
+*// get all temparature data as Dictionary*
+
+**print pr1.getLampInfo()**
+
+*// get red DMD temparature as integer*
+
+**print pr1.getLampInfo()["red"]**
 
 
 
