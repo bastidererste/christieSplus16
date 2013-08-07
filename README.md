@@ -1,7 +1,8 @@
 christieSplus16 v0.1
 ====================
 
-python module to communicate with christie roadster S+16 projectors.
+python module to communicate with christie roadster S+16 projectors. 
+Version 0.1 can get lamp and temperature data.
 
 
 ### usage:
@@ -23,11 +24,11 @@ import christieSplus16 as projector
 
 
 
-*// get all temparature data as Dictionary*
+*// get all temperature data as Dictionary*
 
 **print pr1.getTemperatures()**
 
-*// get red DMD temparature as integer*
+*// get red DMD temperature as integer*
 
 **print pr1.getTemperatures()["red"]**
 
